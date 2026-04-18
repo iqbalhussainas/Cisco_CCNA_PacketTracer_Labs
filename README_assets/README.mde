@@ -1,0 +1,52 @@
+# Inter-VLAN Routing (Router on a Stick)
+
+## 📌 Objective
+
+Enable communication between multiple VLANs using a single router interface (sub-interfaces).
+
+---
+
+## 🧱 Topology
+
+* 1 Router
+* 1 Switch
+* 4 PCs
+* VLAN 10 (Sales)
+* VLAN 20 (HR)
+
+---
+
+## ⚙️ Configuration Summary
+
+### VLANs
+
+* VLAN 10 → Sales
+* VLAN 20 → HR
+
+### Router Sub-interfaces
+
+* G0/0.10 → VLAN 10 (192.168.10.1)
+* G0/0.20 → VLAN 20 (192.168.20.1)
+
+### Switch Port
+
+* Trunk mode enabled on port connecting router
+
+---
+
+## 🧪 Testing
+
+* Same VLAN ping = SUCCESS
+* Inter VLAN ping = SUCCESS
+
+---
+
+## 📷 Screenshot
+
+(Add topology image here)
+
+---
+
+## 🚀 Author
+
+Iqbal Hussain
