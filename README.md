@@ -1,4 +1,53 @@
-# VLAN Basic Lab (4 PCs - Sales & HR)
+u# DHCP Dynamic Lab (CCNA Packet Tracer)
+
+## 📌 Objective
+This lab demonstrates how a router can be configured as a DHCP server to automatically assign IP addresses to PCs in a network.
+
+---
+
+## 🖥️ Network Topology
+- 1 Router (DHCP Server)
+- 1 Switch
+- 4 PCs connected via switch
+
+---
+
+## ⚙️ Configuration Steps
+
+### 1. Router DHCP Configuration
+- Enable DHCP service
+- Create DHCP pool
+- Define network, gateway, and DNS
+
+### 2. Switch Configuration
+- Basic Layer 2 switching (no advanced config required)
+
+### 3. PC Configuration
+- Set IP configuration to DHCP (Automatic)
+
+---
+
+## 🔍 Verification
+
+### ✔️ Check IP Assignment
+- PCs receive IP automatically from DHCP pool
+
+### ✔️ Ping Test
+- PC to Router ping successful
+- PC to PC communication successful
+
+---
+
+## 📷 Evidence
+
+- PC Ping Success Screenshot
+- Router DHCP Configuration Screenshot
+- Network Topology Image
+
+---
+
+## 🚀 Conclusion
+DHCP simplifies IP management by automatically assigning IP addresses to devices in the network.# VLAN Basic Lab (4 PCs - Sales & HR)
 
 ## 📌 Objective
 This lab demonstrates VLAN configuration on a Cisco switch to separate network traffic between different departments (Sales and HR).
