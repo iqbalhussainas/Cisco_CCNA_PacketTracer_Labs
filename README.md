@@ -1,34 +1,35 @@
-# My Cisco CCNA Lab Journey 🚀
+# Cisco CCNA Packet Tracer Labs
 
-Welcome to my networking portfolio! This repository documents my hands-on experience with Cisco technologies as I work toward my CCNA certification. Each lab is designed to solve specific networking challenges using **Cisco Packet Tracer**.
+## 📌 Overview
+This repository contains Cisco CCNA Packet Tracer labs created for hands-on networking practice.  
+It includes switching, routing, and network services configuration.
 
-## 🛠️ Technical Skills Demonstrated
-* **Routing Protocols:** OSPF (Single & Multi-area), Static Routing, RIPv2.
-* **Switching:** VLANs, Inter-VLAN Routing (Router-on-a-Stick), EtherChannel (LACP/PAgP).
-* **Network Services:** DHCP (Server/Relay), NAT (Static, Dynamic, PAT), ACLs.
-* **Redundancy:** STP/RSTP, HSRP.
+## 🧠 Topics Covered
+- Network Fundamentals
+- VLANs
+- IP Services (DHCP, NAT)
+- Routing (Static, OSPF)
+- Security Basics
+- Troubleshooting
 
----
+## 🛠 Tools Used
+- Cisco Packet Tracer
+- Networking Concepts (CCNA Level)
 
-## 📂 Featured Labs
+## 📂 Folder Structure
+- 01_Network_Fundamentals
+- 02_VLANs
+- 03_IP_Services
+- 04_Routing
+- 05_Security
+- 06_Troubleshooting
 
-### 1. OSPF Dynamic Routing
-* **Objective:** Establish neighbor adjacencies and ensure full network reachability using OSPF.
-* **Key Tasks:** Process ID configuration, Wildcard masking, and Loopback interface setup.
-* **Location:** `/OSPF_Labs`
+## 🎯 Purpose
+To practice CCNA skills and build a strong networking foundation.
 
-### 2. DHCP Implementation
-* **Objective:** Automate IP addressing for multiple VLANs.
-* **Key Tasks:** Excluding addresses, defining pools, and configuring DHCP Relay agents on routers.
-* **Location:** `/DHCP_Labs`
+## 🚀 Status
+Labs are continuously updated as I progress in CCNA.
 
----
-
-## 💻 My Lab Environment
-* **Software:** Cisco Packet Tracer, Kali Linux (for network testing).
-* **Documentation:** All labs include `.pkt` files and verification screenshots (Pings, Show commands).
-
----
 
 ## 📬 Connect with Me
 * **Name:** Iqbal Hussain
